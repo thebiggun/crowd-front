@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efficient Indoor Crowd Management</title>
+    <link rel="stylesheet" href="home_style.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">HOME</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="./camera.html" target="_blank">Real Time Feed</a></li>
+                <li><a href="#documentation">Documentation</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <nav id="hamburger-nav">
+        <div class="logo">HOME</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="./camera.html" target="_blank" onclick="toggleMenu()">Real Time Feed</a></li>
+                <li><a href="#documentation" onclick="toggleMenu()">Documentation</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+            </div>
+        </div>
+    </nav> -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#11014; </button>
+    <section id="home-page">
+        <section id="home-title">
+            <h1 class="heading-1">EFFICIENT INDOOR CROWD MANAGEMENT</h1>
+            <form action="./camera.html" target="_blank">
+                <button type="submit" class="glow-on-hover">Real Time Feed</button>
+            </form>
+        </section>
+        <section id="home-pic-id">
+            <img class="home-pic" src="image.png">
+        </section>
+    </section>
+    <section id="documentation">
+        <div class="title-div">
+            <p class="title">Documentation</p>
+        </div>
+        <div class="doc-content">
+            <div class="doc-photo-class">
+                <img class="doc-pic" src="doc-img.png">
+            </div>
+            <div class="text-card">
+                <u><h2 class = "text-card-head">A Quick Glance into the Project</h2></u>
+                <p class="para">
+                    Efficient Indoor Crowd Management is a critical aspect of ensuring Public Safety and optimizing 
+                    Crowd Control in various environments such as shopping malls, event venues, and transportation hubs. 
+                    This project aims to develop a sophisticated application using YOLO (You Only Look Once) 
+                    Object Detection algorithm and Flask Web Framework. The system utilizes Computer Vision techniques to 
+                    detect and track individuals in real-time, enabling accurate crowd counting and monitoring. By providing 
+                    real-time insights, the system facilitates Efficient Crowd Management 
+                    and enhances overall security measures.
+                </p>
+                <p class="para">  
+                    The proposed system leverages the power of YOLO to accurately identify and track individuals within a video stream.
+                    The captured data is then processed and displayed in a User-friendly Web Interface created using 
+                    Flask, allowing authorized personnel to monitor crowd levels and make informed decisions regarding crowd control 
+                    measures. Additionally, the system incorporates features like color-coded threshold alerts, where the display changes
+                    to red when the crowd density exceeds a predefined threshold, providing visual cues for immediate action and redirecting 
+                    the crowd to the other staircase.
+                </p>
+                <h4 class= "para">
+                    Keywords: Crowd Management, Object Detection, Real-time monitoring, Indoor security, YOLO algorithm, 
+                    Flask web framework, Crowd Counting, Public Safety, Computer Vision, Machine Learning
+                </h4>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="title-div">
+            <p class="title">About Us</p>
+        </div>
+        <div class="about-us-box-cont">
+            <div class="about-us-box">
+                <!-- <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <img class="about-img" src="image.png" alt="Astitva">
+                            <div class="container">
+                                <h2>Astitva Agarwal</h2>
+                                <p class="about-title">CEO & Founder</p>
+                                <p>Some shit text that tells u about me but FUCK U!</p>
+                                <p>astitva.agarwal2001@gmail.com</p>
+                                <p><button class="about-button">Contact</button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="doc-img.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Astitva Agarwal</h2>
+                                    <p class="description">Some shit text that tells u about me but FUCK U!</p>
+                                    <button class="about-button">View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+</body>
+
+</html>
