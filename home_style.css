@@ -483,87 +483,50 @@ section {
         display: block;
     }
 } */
-
-.slide-container {
-    max-width: 1120px;
-    width: 100%;
-    padding: 40px 0;
-}
-
-.slide-content {
-    margin: 0 40px
-}
-
-.image-content, .card-content {
+.about-us-box{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
 }
-
-.image-content {
-    position: relative;
-    row-gap:5px;
+.about-card{
+    background-color: rgb(234, 230, 230);
+    height: 90%;
+    width: 18%;
+    margin-left: 1.6%;
+    margin-right: 1.6%;
+    border-radius: 5%;
 }
-
-/* .overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #4070F4;
-    border-radius: 25px 25px 0 25px;
-} */ 
-
-.card {
-    width: 320px;
-    border-radius: 25px;
-    background-color: #FFF;
-}
-
-.card-image {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    background: #fff;
-    padding: 3px;
-    border-radius: 50%;
-}
-
-.card-image .card-img {
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
+.card-img{
+    width: 96%;
+    height: 50%;
+    border-radius: 5%;
+    margin: 2%;
     object-fit: cover;
-    border: 4px solid #4070F4;
+    object-position: center;
 }
-
-.name {
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
+.About-Name{
+    margin-top: 5%;
+    text-align: center;
+    font-family: Sans-serif;
+    color: #333131;
+    text-decoration: underline;
 }
-
-.description {
-    font-size: 14px;
-    color: #707070;
+.about-title{
+    margin: 2%;
     text-align: center;
 }
-
-.about-button {
-    border: none;
-    font-size: 16px;
-    color: #FFF;
-    padding: 8px 16px;
-    background-color: #000;
-    border-radius: 6px;
-    margin: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.about-links{
+    margin: 6%;
+    height: 15%;
 }
-
-.about-button:hover {
-    background: #FFF;
-    color: #000;
+.about-links{
+    display: flex;
+}
+.about-git-icon{
+    height: 100%;
+}
+.about-linkdin-icon{
+    height: 100%;
+}
+.about-link{
+    width: 50%;
+    text-align: center;
 }
